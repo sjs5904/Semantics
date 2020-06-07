@@ -9,5 +9,5 @@ Dr.Racket을 이용한 함수형 프로그래밍입니다.
 테스트할 문자열  
 ![testcode](https://user-images.githubusercontent.com/49792776/83981848-a47d9380-a95c-11ea-807d-627e297ed506.PNG)  
 
-실행: (cadr (sem partition partenv heap1))  
+실행: (cadr (sem partition partenv '((1 10) (2 4) (3 40) (4 29) (5 7) (6 8) (7 9) (8 35) (9 2) (10 20) (11 41))))  
 결과: '((1 8) (2 4) (3 2) (4 9) (5 7) (6 10) (7 29) (8 35) (9 40) (10 20) (11 41))  
